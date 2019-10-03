@@ -29,6 +29,10 @@ function fetchSpecifiedDrivers(driversArray, returnFunction) {
   return returnFunction(driversArray)
 }
 
+function fetchSpecifiedDrivers(arrayOfDrivers, specifiedFunction) {
+  
+}
+
 // let fetchSpecifiedDrivers = function(arrayOfDrivers, specifiedFunction) {
 //   if (specifiedFunction === returnFirstTwoDrivers) {
 //     return returnFirstTwoDrivers(arrayOfDrivers)
