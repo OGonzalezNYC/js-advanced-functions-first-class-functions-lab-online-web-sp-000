@@ -7,6 +7,8 @@ const returnLastTwoDrivers = function(driversArray) {
   return driversArray.slice(-2)
 }
 
+
+
 // const returnLastTwoDrivers = function (array) {
 //   return array.slice(array.length -2);
 // }
