@@ -30,7 +30,7 @@ function fetchSpecifiedDrivers(driversArray, returnFunction) {
 }
 
 function fetchSpecifiedDrivers(arrayOfDrivers, specifiedFunction) {
-  
+  return specifiedFunction(arrayOfDrivers);
 }
 
 // let fetchSpecifiedDrivers = function(arrayOfDrivers, specifiedFunction) {
